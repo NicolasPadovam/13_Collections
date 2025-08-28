@@ -14,6 +14,7 @@ public class Aluno {
     @Override
     public String toString() {
         //uso de string format
+        //%d (decimal) & %s(String)
         return String.format("RM = %d | Nome = %s | Curso = %s", rm, nome, curso);
     }
 
